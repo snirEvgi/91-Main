@@ -110,6 +110,6 @@ console.log(getCountryByField("israel", "name"));
 console.log(getCountryByField("usa", "code"));
 console.log(getCountryByField("isr", "borderCode"));
 console.log(getCountryByField("israel", "cName"));
-console.log(getCountryByField("usd", "currency"));
+console.log(getCountryByField("ils", "currency"));
 console.log(getCountryByField("sunday", "startOfTheWeek"));
 console.log(getCountryByField(700000000, "population"));
