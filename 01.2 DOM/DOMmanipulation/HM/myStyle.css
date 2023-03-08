@@ -1,0 +1,51 @@
+.inputMovieOne {
+    width: 400px;
+    margin-top: 90px;
+    margin-left: 23px;
+}
+
+.mainDiv {
+
+    padding: 20px;
+    margin-top: 40px;
+    height: 500px;
+    text-align: center;
+
+}
+
+.btnClass {
+    position: absolute;
+    margin-top: 290px;
+}
+
+.containers {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.headerDiv {
+    margin-bottom: 30px;
+    margin: 20px;
+
+}
+
+.newMovieList {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 120px;
+    box-shadow: 0px 0px 43px 17px rgba(153, 153, 153, 1);
+}
+
+.topDiv {
+    box-shadow: 0px 0px 43px 17px rgba(153, 153, 153, 1);
+    ;
+    justify-content: center;
+    height: 400px;
+}
+
+.myFirstSpan {
+    list-style-type: none;
+}

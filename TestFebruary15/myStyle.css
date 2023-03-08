@@ -1,0 +1,66 @@
+.container {
+    max-width: 800px;
+    height: 500px;
+    margin: 10vh auto 0 auto;
+    box-shadow: 0px 0px 15px 1px rgba(153, 153, 153, 1);
+    border-radius: 25px;
+
+}
+
+.myBtn {
+    padding: auto;
+    margin: 15px;
+    margin-left: 46%;
+    margin-top: 20px;
+}
+
+.mainTable {
+    max-width: 800px !important;
+    border-radius: 25px !important;
+    margin: 10vh auto 0 auto !important;
+    box-shadow: 0px 0px 15px 1px rgba(153, 153, 153, 1) !important;
+}
+
+.search {
+    display: flex !important;
+    padding: 6px !important;
+    border-radius: 50px !important;
+    transition: 0.4s !important;
+}
+
+.textBox {
+    width: 0 !important;
+    text-indent: 16px !important;
+    transition: 0.4s !important;
+}
+
+.search:hover {
+    background: rgba(255, 255, 255, 0.1) !important;
+}
+
+.search:hover .textBox {
+    width: 180px !important;
+}
+
+.search .icon {
+    pointer-events: none;
+    border-radius: inherit;
+    background: #d1e6dd;
+    height: 50px;
+    width: 50px;
+}
+
+.containerSearch {
+    margin: auto !important;
+    padding: none !important;
+    position: relative !important;
+    top: 50px !important;
+    left: 20% !important;
+}
+
+.searchSpan {
+    position: relative !important;
+    right: 10px !important;
+    top: 13px;
+
+}

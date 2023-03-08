@@ -1,0 +1,137 @@
+.movie-item {
+    display: flex !important;
+    justify-content: space-between;
+}
+
+.colorMeInPink {
+    background-color: pink !important;
+    border: 3px solid green !important;
+}
+
+/* Flex container classes:
+.d-flex: Sets an element as a flex container
+.flex-column: Sets the flex container to display its children in a column layout
+.flex-row: Sets the flex container to display its children in a row layout
+.align-items-start: Aligns the items to the start of the flex container (top for columns, left for rows)
+.align-items-center: Aligns the items to the center of the flex container (vertically for columns, horizontally for rows)
+.align-items-end: Aligns the items to the end of the flex container (bottom for columns, right for rows)
+.justify-content-start: Aligns the items to the start of the main axis (left for columns, top for rows)
+.justify-content-center: Aligns the items to the center of the main axis (horizontally for columns, vertically for rows)
+.justify-content-end: Aligns the items to the end of the main axis (right for columns, bottom for rows)
+.justify-content-between: Distributes the items evenly along the main axis, with the first and last items at the start and end, respectively
+.justify-content-around: Distributes the items evenly along the main axis, with equal space around each item
+Flex item classes:
+.flex-grow-x: Specifies how much the item should grow relative to the remaining items in the flex container
+.flex-shrink-x: Specifies how much the item should shrink relative to the remaining items in the flex container
+.flex-basis-x: Specifies the initial main size of the item
+Grid system classes:
+.d-flex: Sets an element as a flex container
+.row: Creates a row within a flex container
+.col-x: Creates a column that spans a specified number of the 12 available grid columns
+.offset-x: Offsets a column by a specified number of columns
+Spacing classes:
+.p-x: Adds padding on all sides of an element
+.pt-x: Adds padding to the top of an element
+.pb-x: Adds padding to the bottom of an element
+.pl-x: Adds padding to the left of an element
+.pr-x: Adds padding to the right of an element
+.mx-x: Adds margin on all sides of an element
+.mt-x: Adds margin to the top of an element
+.mb-x: Adds margin to the bottom of an element
+.ml-x: Adds margin to the left of an element
+.mr-x: Adds margin to the right of an element
+Where "x" can be any number from 0 to 5, representing the size of the padding/margin.
+
+These classes can be combined in various ways to create a wide range of flexible and responsive layouts that adjust to different screen sizes. */
+
+
+
+
+table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+table tr:hover {
+    background-color: #f2f2f2;
+}
+
+table tr td,
+table tr th {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #f2f2f2;
+}
+
+.secondHead {
+    position: relative !important;
+    left: 660px;
+}
+
+.dynamicTable {
+    border: 0.5px solid black;
+}
+
+body {
+    background: lightgrey !important;
+}
+
+form {
+    background: slategray;
+}
+
+h1 {
+    color: black !important;
+    text-align: center;
+}
+
+
+
+img {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    margin: auto auto;
+
+}
+
+.headerOne {
+    background: rgba(58, 56, 73, 0.623);
+}
+
+form {
+    color: #f2f2f2;
+}
+
+.inputClass {
+    border-radius: 16px !important;
+    padding: 15px !important;
+    margin: 4px !important;
+    margin-left: 3px !important;
+    border: none !important;
+    border: bottom 1px solid black !important;
+}
+
+.zona {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: start !important;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.myBtn {
+    padding: 10px !important;
+    border-radius: 16px !important;
+    width: 100px !important;
+    margin-top: 15px !important;
+
+}
+
+.myBtns {
+    display: flex !important;
+    gap: 15px !important;
+    justify-content: center !important;
+    align-items: center !important;
+    padding: 15px !important;
+    padding-bottom: 45px !important;
+}

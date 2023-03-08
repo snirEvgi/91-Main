@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Task Board</title>
+    <link
+      id="headerIcon"
+      rel="icon"
+      type="image/x-icon"
+      href="/ProjectFebruary/images/post-it.png"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css"
+    />
+
+    <link rel="stylesheet" href="./index.css" />
+    <!-- <link rel="stylesheet" href="./myStyle.css" /> -->
+    <link rel="stylesheet" href="./myStyleVol2.css" />
+  </head>
+
+  <body>
+    <div class="mainHeader text-center p-3">
+      <h1 id="headerMode"><u>My Task Board</u></h1>
+    </div>
+    <div class="theWholeForm">
+    <form class="m-5 container mainContent">
+      <div class="form-group col-lg-6 inputDiv">
+        <label for="text-input"><b><u>*Task Description</u></b></label>
+        <input type="text" class="form-control" id="tDescript" placeholder="Enter text">
+      </div>
+      
+      <div class="form-group col-lg-6 inputDiv">
+        <label for="date-input"><b><u>*Due Date & Time</u></b></label>
+        <input type="date" class="form-control" id="date">
+      </div>
+      
+      <div class="form-group col-lg-6 inputDiv">
+        <label for="time-input"><b><u>*Due Time</u></b></label>
+        <input type="time" class="form-control" id="time">
+      </div>
+      
+      <div id="priority" class="form-group col-lg-6 inputDiv">
+        <label for="select-input"><b><u>*Priority</u></b></label>
+        <select class="form-control" id="prioritySelect">
+          <option disabled selected>Choose:</option>
+          <option value="Low">Low</option>
+          <option value="Medium">Medium</option>
+          <option value="High">High</option>
+        </select>
+      </div>
+      <div class="btnGroup d-flex align-items-center justify-content-md-center gap-3 mt-3">
+      <button type="button" class="btn btn-success col-lg-1" id="myButton">Add</button>
+      <button type="button" class="btn btn-warning col-lg-1"  id="myClearButton">Clear</button>
+    </div>
+    </form>
+      </div>
+    </div>
+      <div class="containDynamics" id="containDynamics"></div>
+    </div>
+    <script src="Todo.JS"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
+
+<!--   
+    <div class="stickyNotes">
+        <i class="deleteIcon bi bi-x-square-fill"></i>
+        <div class="contentArea">
+            <ul id="firstUl" class="myFirstList">
+                <li>adsldnksakdslsdjkaadsldnksakdslsdjkaadsldnksakdslsdjkaadsldnksakdslsdjkaadsldnksakdslsdjkaadsldnksakdslsdjkaadsldnksakdslsdjkaadsldnksakdslsdjkaadsldnksakdslsdjkaadsldnksakdslsdjkaadsldnksakdslsdjkaadsldnksakdslsdjkaadsldnksakdslsdjkaadsldnksakdslsdjkaadsldnksakdslsdjkaadsldnksakdslsdjkaadsldnksakdslsdjkaadsldnksakdslsdjkaadsldnksakdslsdjkaadsldnksakdslsdjkaadsldnksakdslsdjkaadsldnksakdslsdjkaadsldnksakdslsdjkaadsldnksakdslsdjkaadsldnksakdslsdjka
+                </li>
+            </ul>
+        </div>
+        <ul id="secondUl" class="mySecondList">
+            <li>24/08/2000</li>
+            <li>04:20</li>
+        </ul>
+    </div>
+-->
+<!-- <div class="alertPop">
+    <div class="topBar"></div>
+    <p class="alertWriting">Are you sure you want delete?</p>
+    <div class="yesBtn">Yes</div>
+    <div class="noBtn">No</div>
+</div> -->

@@ -1,0 +1,9 @@
+.movie-item {
+    display: flex !important;
+    justify-content: space-between;
+}
+
+.colorMeInPink {
+    background-color: pink !important;
+    border: 3px solid green !important;
+}

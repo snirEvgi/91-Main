@@ -1,0 +1,58 @@
+body {
+    background-color: #ccc !important;
+
+}
+
+.container {
+    width: 80vw !important;
+}
+
+.myInput {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.search {
+    display: flex !important;
+    padding: 6px !important;
+    border-radius: 50px !important;
+    transition: 0.4s !important;
+}
+
+.textBox {
+    width: 0 !important;
+    text-indent: 16px !important;
+    transition: 0.4s !important;
+}
+
+.search:hover {
+    background: rgba(255, 255, 255, 0.1) !important;
+}
+
+.search:hover .textBox {
+    width: 180px !important;
+}
+
+.search .icon {
+    pointer-events: none;
+    border-radius: inherit;
+    background: #f8d8dc;
+    height: 50px;
+    width: 50px;
+}
+
+.wrapper {
+    position: fixed;
+    inset: 0;
+    z-index: 9999;
+    background-color: #fff;
+    display: grid;
+    place-items: center;
+    transition: opacity .25s, visibilty 1s;
+
+}
+
+.fade {
+    opacity: 0;
+    visibility: hidden;
+}

@@ -1,0 +1,391 @@
+@font-face {
+    font-family: 'MyFont';
+    src: url("Fonts/Playmate.otf");
+
+}
+
+body {
+    background-image: url("images/cork.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: "MyFont";
+}
+
+.mainHeader {
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    bottom: 19px;
+
+}
+
+.mainContent {
+    background-image: url("images/PaperBg.jpg");
+    background-size: cover;
+    width: 50%;
+    height: 300px;
+    padding: 20px;
+    margin: 20px auto;
+    position: relative;
+    bottom: 120px;
+
+}
+
+.mainForm input {
+    padding: 5px !important;
+    margin: 20px !important;
+    margin-bottom: 30px !important;
+    background: none !important;
+    border-radius: 45px;
+    width: 100px;
+
+
+}
+
+.prioritySelect {
+    background: none !important;
+    border-radius: 45px;
+    width: 100px;
+
+
+
+}
+
+.allInput {
+    position: relative !important;
+    bottom: 50px !important;
+
+}
+
+.descriptionInput {
+    width: 200px !important;
+    height: 51px;
+    position: relative;
+    top: 17px;
+
+}
+
+
+.topLabel {
+    position: relative;
+    top: 54px;
+}
+
+.mainForm {
+    top: 50%;
+    left: 50%;
+    transform: translate(25%, -0%)
+}
+
+.btn {
+    position: relative;
+    left: 53px;
+
+}
+
+.myDateAndTime {
+    position: relative;
+    bottom: 20px;
+}
+
+.stickyNotes {
+
+    background-image: url("images/stickyNote.png");
+    background-size: cover;
+    width: 18%;
+    height: 270px;
+    padding: 20px;
+    float: left;
+    position: relative;
+    bottom: 80px;
+    margin: 45px;
+
+
+}
+
+.contentArea {
+    position: relative;
+    top: 43px;
+    width: 235px;
+    height: 100px;
+    overflow: auto;
+    scroll-behavior: smooth;
+
+}
+
+
+
+.deleteIcon {
+    position: relative;
+    left: 43px;
+    bottom: 10px;
+    cursor: pointer;
+    opacity: 0;
+    transition: 0.3s ease-out;
+}
+
+.stickyNotes:hover .deleteIcon {
+    opacity: 1;
+
+}
+
+.deleteIcon:hover {
+    color: red;
+}
+
+
+.myFirstList {
+    word-wrap: break-word;
+}
+
+.mySecondList {
+    position: relative;
+    left: 124px;
+    padding: none;
+    top: 26px;
+    transform: rotate(-29deg);
+
+}
+
+ul {
+    list-style-type: none;
+}
+
+.button {
+    padding: 10px;
+    display: inline-block;
+    margin-left: 55px;
+    position: relative;
+    bottom: 18px;
+
+}
+
+
+.fadeIn {
+    animation-name: fadeIn;
+    animation-duration: 1.5s;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+
+.lightMode {
+    position: relative !important;
+    left: 170px !important;
+    bottom: 48px;
+    cursor: pointer;
+}
+
+.priority {
+    display: flex;
+    gap: 60px;
+    padding: 10px;
+    position: relative;
+    bottom: 20px;
+}
+
+.priorImg {
+    position: relative;
+    height: 35px;
+    width: 35px;
+    left: 91%;
+    bottom: 154px;
+}
+
+.flyingNote {
+    width: 120px;
+    background-color: #f1f1f1;
+    border: 1px solid #555;
+    margin: 25px;
+    padding: 5.5px;
+    text-align: center;
+    font-weight: 900;
+    color: black;
+    opacity: 0.85;
+    position: relative;
+    left: 243px;
+    bottom: 108%;
+
+}
+
+/* Dark Mode */
+
+.myModeSelect {
+    width: 125px !important;
+    position: relative !important;
+    left: 70% !important;
+    padding: 10px !important;
+    bottom: 118px !important;
+    color: black !important;
+    display: flex;
+}
+
+.sLbl {
+    font-size: 30px;
+}
+
+.sLblDark {
+    color: white !important;
+    font-size: 30px;
+
+}
+
+h1 {
+    font-size: 100px;
+}
+
+.mainHeaderDark {
+    padding: 20px !important;
+    color: white !important;
+    text-align: center !important;
+    position: relative;
+    bottom: 12px;
+    padding: 20px;
+
+}
+
+.stickyNotesDark {
+
+    background-image: url("images/darkStickyNote.png") !important;
+    background-size: cover !important;
+    width: 18% !important;
+    height: 270px !important;
+    padding: 20px !important;
+    float: left !important;
+    margin: 40px;
+    color: white;
+
+}
+
+.contentAreaDark {
+    position: relative !important;
+    top: 43px !important;
+    width: 235px !important;
+    height: 100px !important;
+    overflow: auto !important;
+    scroll-behavior: smooth !important;
+    color: white !important;
+}
+
+.deleteIconDark {
+    position: relative !important;
+    left: 43px !important;
+    bottom: 10px !important;
+    cursor: pointer !important;
+    opacity: 0 !important;
+    transition: 0.3s ease-out !important;
+}
+
+.deleteIconDark:hover {
+    opacity: 1 !important;
+    color: white !important;
+}
+
+.myFirstListDark {
+    word-wrap: break-word !important;
+}
+
+.mySecondListDark {
+    position: relative !important;
+    left: 124px !important;
+    padding: none !important;
+    top: 26px !important;
+    transform: rotate(-29deg) !important;
+    color: white !important;
+
+
+}
+
+/* Alert try */
+.alerted {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: yellow;
+    padding: 20px;
+    border: 1px solid black;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 7px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #555;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #e8d614;
+
+}
+
+/* switch btn css */
+
+
+.containerOf {
+    position: relative !important;
+    bottom: 210px;
+    left: 40px;
+
+}
+
+
+.switchOf input {
+    position: absolute;
+    opacity: 0;
+}
+
+.switchOf {
+    display: flex;
+    font-size: 20px;
+    height: 22px;
+    width: 2em;
+    background: lightcoral;
+    border-radius: 1em;
+}
+
+.switchOf div {
+    height: 1em;
+    width: 1em;
+    border-radius: 1em;
+    background: #FFF;
+    box-shadow: 0 0.1em 0.3em rgba(0, 0, 0, 0.4);
+    -webkit-transition: all 300ms;
+    -moz-transition: all 300ms;
+    transition: all 300ms;
+}
+
+.switchOf input:checked+div {
+    -webkit-transform: translate3d(100%, 0, 0);
+    -moz-transform: translate3d(100%, 0, 0);
+    transform: translate3d(100%, 0, 0);
+    background: #3434;
+}
+
+/* .toggleSwitchClass {
+    background-image: url("images/importantNote.png") !important;
+    background-size: cover !important;
+    width: 18% !important;
+    height: 270px !important;
+    padding: 20px !important;
+    float: left !important;
+    margin: 40px;
+    color: white;
+} */
