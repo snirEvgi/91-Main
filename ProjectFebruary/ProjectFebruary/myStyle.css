@@ -1,0 +1,327 @@
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 20px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #555;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #e8d614;
+}
+
+/* 75% - 80 */
+
+@font-face {
+  font-family: "MyFont";
+  src: url("Fonts/Playmate.otf");
+}
+
+body {
+  background-image: url("images/cork.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: "MyFont";
+}
+
+h1 {
+  font-size: 100px;
+}
+
+.mainHeader {
+  padding: 20px;
+  text-align: center;
+  position: relative;
+  bottom: 19px;
+}
+
+.mainContent {
+  background-image: url("images/PaperBg.jpg");
+  background-size: cover;
+  width: 50%;
+  height: 395px;
+  padding: 20px;
+  margin: 20px auto;
+  margin-top: 80px;
+  position: relative;
+  bottom: 120px;
+}
+
+.mainForm {
+  position: relative;
+  left: 200px;
+}
+.mainForm .descriptionInput {
+  position: relative;
+  left: 67px;
+}
+
+.myInput {
+  background: none !important;
+  border-radius: 45px;
+  width: 200px;
+  border: 0.1px solid darkgrey;
+  position: relative;
+  padding: 15px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  left: 100px;
+}
+
+.btn {
+  position: relative;
+  left: 33px;
+  top: 40px;
+}
+
+
+.priorImg {
+  position: relative;
+  height: 35px;
+  width: 35px;
+  left: 91%;
+  bottom: 144px;
+}
+
+.flyingNote {
+  width: 120px;
+  background-color: #f1f1f1;
+  border: 1px solid #555;
+  margin: 25px;
+  padding: 5.5px;
+  text-align: center;
+  font-weight: 900;
+  color: black;
+  opacity: 0.85;
+  position: relative;
+  left: 289px;
+  bottom: 98%;
+}
+
+.stickyNotes {
+  background-image: url("images/stickyNote.png");
+  background-size: cover;
+  min-width: 24%;
+  height: 355px;
+  padding: 30px;
+  float: left;
+  position: relative;
+  bottom: 80px;
+  margin: 45px;
+}
+
+.contentArea {
+  position: relative;
+  top: 43px;
+  width: 225px;
+  height: 100px;
+  overflow: hidden;
+}
+
+.stickyNotes:hover .contentArea {
+  overflow-y: auto;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+.deleteIcon {
+  position: relative;
+  left: 53px;
+  bottom: 10px;
+  opacity: 0;
+  transition: 0.3s ease-out;
+}
+
+.stickyNotes:hover .deleteIcon {
+  opacity: 1;
+}
+
+.deleteIcon:hover {
+  color: red;
+}
+
+.myFirstList {
+  word-wrap: break-word;
+  width: 200px;
+}
+
+.mySecondList {
+  position: relative;
+  left: 164px;
+  padding: none;
+  top: 46px;
+  transform: rotate(-29deg);
+}
+
+ul {
+  list-style-type: none;
+}
+
+.button {
+  padding: 10px;
+  display: inline-block;
+  margin-left: 55px;
+  position: relative;
+  bottom: 18px;
+}
+
+.fadeIn {
+  animation-name: fadeIn;
+  animation-duration: 1.5s;
+}
+
+/* Alert try */
+.alerted {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: yellow;
+  padding: 20px;
+  border: 1px solid black;
+}
+
+.contentArea::-webkit-scrollbar {
+  width: 7px;
+}
+
+.contentArea:hover::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+.contentArea:hover::-webkit-scrollbar-thumb {
+  background: #555;
+}
+
+/* Handle on hover */
+.contentArea:hover::-webkit-scrollbar-thumb:hover {
+  background: #e8d614;
+}
+.alertPop {
+  background-color: whitesmoke;
+  width: 400px;
+  height: 200px;
+  box-shadow: 0px 0px 32px 0px lightgrey;
+  text-align: center;
+  position: relative;
+  bottom: 290px;
+  left: 580px;
+}
+
+.alertWriting {
+  font-weight: 300;
+  font-size: 25px !important;
+  position: absolute;
+  padding: 20px;
+  left: 50px;
+  top: 40px;
+}
+
+.yesBtn {
+  position: absolute;
+  top: 110px;
+  padding: 30px;
+  left: 67px;
+}
+
+.noBtn {
+  position: absolute;
+  top: 110px;
+  left: 232px;
+  padding: 30px;
+}
+
+.yesBtn:hover {
+  background-color: rgba(94, 232, 154, 0.696);
+}
+
+.noBtn:hover {
+  background-color: rgba(234, 30, 12, 0.628);
+}
+
+.yesBtn:hover,
+.noBtn:hover {
+  transition: 0.3s ease-in;
+}
+
+.yesBtn,
+.noBtn {
+  border: 1px solid black;
+  border-radius: 50px;
+  bottom: 10px;
+  /* margin-bottom: -25px; */
+  font-weight: 500;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.topBar {
+  position: absolute;
+  background-color: #e8d614;
+  width: 400px;
+  height: 50px;
+  text-align: center;
+}
+
+.barText {
+  font-size: 25px;
+  font-weight: 300;
+  position: absolute;
+  padding: 6px;
+}
+
+/*90% - max *needto be changed per resulution ?-?*/
+/* loader */
+/* Add loader screen styles here */
+.loaderContainer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 9999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: opacity 0.75s, visibilty 0.75s;
+}
+
+.loaderContainerHidden {
+  opacity: 0;
+  visibility: hidden;
+}
+.loaderContainer::after {
+  content: "";
+  width: 75px;
+  height: 75px;
+  border: 15px solid #dddddd;
+  border-top-color: #e8d614;
+  border-radius: 50%;
+  animation: loaderAnimation 0.75s ease infinite;
+} /* adding the loader */
+
+@keyframes loaderAnimation {
+  to {
+    transform: rotate(360deg);
+  }
+}
